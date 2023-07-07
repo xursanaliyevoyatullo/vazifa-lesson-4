@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1376;
+    width: 100%;
+    height: 1150px;
+    background: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* HEADER */
+.navbar {
+    display: flex;
+    padding: 6px;
+    width: 1366px;
+    height: 56px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #00000017;
+}
+
+.site-logo {
+    width: 101px;
+    height: 39px;
+    margin-left: 99px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 14px;
+    margin-left: 500px;
+}
+
+.text-button {
+    margin-top: 11px;
+    display: flex;
+    gap: 45px;
+    margin-left: 30px;
+}
+
+
+.login {
+    width: 58px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.open {
+    width: 122px;
+    height: 24px;
+    display: flex;
+    justify-content: center;    
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.english {
+    width: 55px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+ 
+.service{
+    text-decoration: none;
+    color: #4d4b4b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4b4b;
+}
+/* FOOTER */
+.section {
+    width: 496px;
+    height: 641px;
+    background-color: white;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+}
+
+.bytrend-logo {
+    padding-top: 45px;
+    margin-left: 160px;
+}
+
+.welcome {
+    font-size: 29px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.already {
+    margin-top: 8px;
+    padding-left: 100px;
+    display: flex;
+    gap: 15px;
+}
+
+.have {
+    font-size: 16px;
+    line-height: 26px;
+    color: #acaab1;
+}
+
+.login-a {
+    margin-top: 4px;
+    color: #01BAB3;
+}
+
+.skype {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.skype_password {
+    border: 1px solid #D9D9D9;
+    width: 421px;
+    height: 48px;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+.continue{
+    width: 416px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+    background: #01BAB3;
+    color: white;
+    margin-top: 60px;
+}
